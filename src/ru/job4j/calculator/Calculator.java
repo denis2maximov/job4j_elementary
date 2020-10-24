@@ -1,15 +1,19 @@
 package ru.job4j.calculator;
 
-class ArgMethod {
-
-    public static void hello(String name) {
-        System.out.println("Hello, " + name);
-    }
-
+public class Calculator {
     public static void main(String[] args) {
-        String name = "Petr Arsentev"; //* не понял нужно ли было использовать int age = 33; и править метод hello и System.out.println
-
-        ArgMethod.hello(name);
-
+        int one = 1;
+        int two = 2;
+        int six = 6;
+        int four = 4;
+        int five = 5;
+        int onePlusTwo = one + two;
+        int sixDivTwo = six / two;
+        int fiveMinusTwo = five - two;
+        int fourTimeTwo = four * two;
+        System.out.println(onePlusTwo);
+        System.out.println(sixDivTwo);
+        System.out.println(fiveMinusTwo);
+        System.out.println(fourTimeTwo);
     }
 }
