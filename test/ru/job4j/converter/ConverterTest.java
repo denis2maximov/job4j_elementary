@@ -32,7 +32,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenMainConvert140RblThen3Dlr() {
+    public void whenMainConvert140RblThen70Dlr() {
         int in = 140;
         int expectedEuro = 70;
         int out = Converter.rubleToDollar(in);
