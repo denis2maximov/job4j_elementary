@@ -32,6 +32,10 @@ public class ConverterTest {
     }
 
     @Test
-    public void main() {
+    public void whenMainConvert140RblThen3Dlr() {
+        int in = 140;
+        int expectedEuro = 70;
+        int out = Converter.rubleToDollar(in);
+        Assert.assertEquals(expectedEuro, out);
     }
 }
