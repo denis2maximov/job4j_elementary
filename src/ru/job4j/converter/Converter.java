@@ -4,7 +4,7 @@ public class Converter {
 
     public static int rubleToEuro(int value) {
         int rsl = value / 70;
-        int expected = 2;
+        int expected = 2; //* не знал про следующшее задание*//
         int outToEuro = rsl;
         boolean passedToEuro = expected == outToEuro;
         System.out.println("this method works: rubleToEuro. Test result : " + passedToEuro);
@@ -23,7 +23,7 @@ public class Converter {
     public static void main(String[] args) {
         int in = 140;
         int expectedEuro = 2;
-        int expectedDollar = 23; //* сделал не правильно, что бы посмортреть как будет работать *//
+        int expectedDollar = 2;
         int outEuro = Converter.rubleToEuro(in);
         int outDollar = Converter.rubleToDollar(in);
         boolean passedEuro = expectedEuro == outEuro;
