@@ -15,4 +15,25 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
+    @Test
+    public void when00to2040then44() {
+        double expected = 44.72;
+        int x1 = 0;
+        int y1 = 0;
+        int x2 = 20;
+        int y2 = 40;
+        double out = Point.distance(x1, y1, x2, y2);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+
+    @Test
+    public void when3001to50011then470() {
+        double expected = 470.10;
+        int x1 = 30;
+        int y1 = 1;
+        int x2 = 500;
+        int y2 = 11;
+        double out = Point.distance(x1, y1, x2, y2);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
