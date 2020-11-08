@@ -5,3 +5,6 @@ public class ChessBoard {
         int rsl;
         rsl = Math.abs(x2 - x1);
         rsl = (Math.abs(x1 - x2) == Math.abs(y1 - y2)) ? rsl : 0;
+        return rsl;
+    }
+}
