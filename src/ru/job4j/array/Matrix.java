@@ -6,10 +6,8 @@ public class Matrix {
         int rsl = 0;
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                rsl = ((i + 1) * (j + 1));
-                table[i][j] = rsl;
-
-            }
+                table[i][j]  = ((i + 1) * (j + 1));
+                }
         }
         return table; }
 }
