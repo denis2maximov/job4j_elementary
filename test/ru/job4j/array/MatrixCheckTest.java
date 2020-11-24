@@ -79,4 +79,3 @@ public class MatrixCheckTest {
         assertThat(result, is(true));
     }
  }
-// привет
