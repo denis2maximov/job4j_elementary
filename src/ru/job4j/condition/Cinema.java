@@ -20,7 +20,7 @@ public class Cinema {
             }
         }
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         Cinema.access(21);
         Cinema.access(16);
         permission(true, true);
