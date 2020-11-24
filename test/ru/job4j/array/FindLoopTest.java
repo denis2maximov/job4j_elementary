@@ -6,7 +6,8 @@ import static org.junit.Assert.assertThat;
 
 public class FindLoopTest {
 
-     @Test
+    @SuppressWarnings("checkstyle:ArrayTypeStyle")
+    @Test
     public void whenArrayHas5Then0() {
         int[] input = {5, 4, 3, 2};
         int value = 5;
