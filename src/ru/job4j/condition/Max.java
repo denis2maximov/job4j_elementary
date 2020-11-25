@@ -8,9 +8,6 @@ public class Max {
 
     public static void main(String[] args) {
         int result = Max.max(33, 100);
-
         System.out.println(result);
     }
-
-
 }
