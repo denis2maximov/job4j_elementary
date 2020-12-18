@@ -1,7 +1,5 @@
 package ru.job4j.condition;
 
-//* у нас был класc   Cinema в задании 4.1.0., добавил задание 4.3.1. в него
-
 public class Cinema {
     public static void access(int age) {
         System.out.println("The age of the customer is : " + age);
