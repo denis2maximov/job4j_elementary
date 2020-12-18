@@ -3,21 +3,12 @@ package ru.job4j.converter;
 public class Converter {
 
     public static int rubleToEuro(int value) {
-        int rsl = value / 70;
-        //* int expected = 2; *//
-        //* int outToEuro = rsl; *//
-       //* boolean passedToEuro = expected == outToEuro;
-        //* System.out.println("this method works: rubleToEuro. Test result : " + passedToEuro);
-        return rsl;
+        return value / 70;
     }
 
     public static int rubleToDollar(int value) {
-        int rsl = value / 60; /* формула перевода рублей в доллары. */
-       //* int expected = 2;
-        //* int outToDollar = rsl;
-       //* boolean passedToDollar = expected == outToDollar;
-       //* System.out.println("this method works: rubleToDollar. Test result : " + passedToDollar);
-        return rsl;
+     //   int rsl = value / 60;
+        return value / 60;
     }
 
     public static void main(String[] args) {
