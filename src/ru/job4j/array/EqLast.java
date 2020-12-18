@@ -7,5 +7,6 @@ public class EqLast {
                 return true;
             }
         }
-        return false; }
+        return false;
+    }
 }
