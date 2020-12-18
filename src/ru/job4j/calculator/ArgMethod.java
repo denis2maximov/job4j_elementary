@@ -7,9 +7,7 @@ class ArgMethod {
     }
 
     public static void main(String[] args) {
-        String name = "Petr Arsentev"; //* не понял нужно ли было использовать int age = 33; и править метод hello и System.out.println после этого
-
+        String name = "Petr Arsentev";
         ArgMethod.hello(name);
-
     }
 }
