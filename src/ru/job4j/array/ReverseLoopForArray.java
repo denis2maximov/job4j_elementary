@@ -5,10 +5,7 @@ public class ReverseLoopForArray {
         int[] numbers = {1, 2, 3, 4, 5, 6, 7};
         for (int i = 0; i < numbers.length; i++) {
             if (i % 2 == 0 && i != 6) {
-                System.out.println(
-                        "Текущие элементы с четными индексами: "
-                                + numbers[numbers.length - 1 - i]
-                );
+                System.out.println("Текущие элементы с четными индексами: " + numbers[numbers.length - 1 - i]);
             }
         }
     }
