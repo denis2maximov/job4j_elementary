@@ -8,7 +8,6 @@ public class ArrayLoop {
         }
         for (int names : name) {
             System.out.println(names);
-
         }
     }
 }
