@@ -8,15 +8,11 @@ public class Mechanism {
         lada.autoDrive();
         Giguli g1 = new Giguli();
         g1.getLada();
+        NtStatic not1 =  new NtStatic();
+        not1.nonStaticMetod();
 
-        class NotStatic{
-            public void nonStaticMetod(){
-                new Auto().autoDrive();
-                System.out.println("print notStaticMetod");
-            }
         }
     }
- }
 
     class Auto {
         public void autoDrive() {
@@ -27,7 +23,7 @@ public class Mechanism {
     class Lada extends Auto{
         @Override
         public void autoDrive() {
-            super.autoDrive();
+         super.autoDrive();
             System.out.println("I love Lada 21083");
         }
     }
@@ -42,6 +38,29 @@ public class Mechanism {
 
         }
     }
+
+    class StaticMetodAuto{
+    public static void staticAuto(){
+        System.out.println("Статик метод");
+    }
+    }
+
+    class ExSaticMtd extends StaticMetodAuto{
+      //   public void staticAuto()
+      public static void staticAuto() {
+          Auto auto = new Auto();
+          System.out.println("not");
+      }
+   }
+class NtStatic{
+    public void nonStaticMetod(){
+        new Auto().autoDrive();
+        System.out.println("print notStaticMetod");
+        new ExSaticMtd().staticAuto();
+    }
+}
+
+
 
 
 
