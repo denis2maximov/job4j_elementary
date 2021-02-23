@@ -6,11 +6,9 @@ public class Mechanism {
         auto.autoDrive();
         Lada lada = new Lada();
         lada.autoDrive();
-      //  Auto.autoDrive(); // not work
-      //   Giguli.getLada(); // not work
         Giguli g1 = new Giguli();
         g1.getLada();
-            
+
         class NotStatic{
             public void nonStaticMetod(){
                 new Auto().autoDrive();
@@ -18,9 +16,7 @@ public class Mechanism {
             }
         }
     }
-
-    }
-
+ }
 
     class Auto {
         public void autoDrive() {
