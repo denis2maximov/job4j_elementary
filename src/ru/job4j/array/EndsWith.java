@@ -8,6 +8,7 @@ public class EndsWith {
             return false;
  }
         }
+        //noinspection ConstantConditions
         return result;
     }
 }
